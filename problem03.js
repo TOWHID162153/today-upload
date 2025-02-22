@@ -29,7 +29,9 @@ electionResult(["mango", "banana", "mango", "banana", "mango"]); // "Mango"
 electionResult([]); // "Draw"
 electionResult(["mango", "banana", "jaker party" , "no"]); // "Draw"
 electionResult(["mango"]); // "Mango"
-electionResult(["banana", "banana", "age e valo chilam" , "no"]); // // "Banana"
+electionResult(["banana", "banana", "age e valo chilam" , "no"]); // 
 electionResult({result: "mango , banana ,  mango"}); // "Invalid"
 electionResult("mango , banana");// "Invalid"
-electionResult(["mango", "BananA", "na vote", "na vote"]); // "Mango"
+electionResult(["mango", "BananA", "na vote", "na vote"]); // "Banana"
+
+// ---- Done ---- //

@@ -1,3 +1,5 @@
+// # Problem-04: Detect The Perfect Best Friend  
+// # Problem 04 solve : 
 function  isBestFriend( f1 , f2 ) {
     if(typeof (f1 && f2) ==="object" && f1.bestFriend === f2.roll && f2.bestFriend === f1.roll){
         if((f1.name && typeof f1.name === "string" && f1.roll && typeof f1.roll === "number" && f1.bestFriend && typeof f1.bestFriend === "number") && (f2.name && typeof f2.name === "string" && f2.roll && typeof f2.roll === "number" && f2.bestFriend && typeof f2.bestFriend === "number")){
@@ -19,3 +21,5 @@ function  isBestFriend( f1 , f2 ) {
 // isBestFriend("hashem", { name:"kashem", roll: 2, bestFriend: 11}); // "Invalid"
 // isBestFriend({ name: "hashem", roll: 1 , bestFriend: 1}, { name: "kashem" , roll: 1, bestFriend: 1 }); // true
 // isBestFriend({ name: "hashem", roll: 1 , bestFriend: 1}, { name: "kashem" , roll: 1 }); // 
+
+// ---- Done ---- //
